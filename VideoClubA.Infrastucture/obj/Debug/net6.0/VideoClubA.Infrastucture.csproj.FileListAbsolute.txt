@@ -1,0 +1,15 @@
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\bin\Debug\net6.0\VideoClubA.Infrastucture.deps.json
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\bin\Debug\net6.0\VideoClubA.Infrastucture.dll
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\bin\Debug\net6.0\VideoClubA.Infrastucture.pdb
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\bin\Debug\net6.0\VideoClubA.Core.dll
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\bin\Debug\net6.0\VideoClubA.Core.pdb
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.csproj.AssemblyReference.cache
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.AssemblyInfoInputs.cache
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.AssemblyInfo.cs
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.csproj.CoreCompileInputs.cache
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.csproj.CopyComplete
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.dll
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\refint\VideoClubA.Infrastucture.dll
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\VideoClubA.Infrastucture.pdb
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VideoClubA\VideoClubA.Infrastucture\obj\Debug\net6.0\ref\VideoClubA.Infrastucture.dll

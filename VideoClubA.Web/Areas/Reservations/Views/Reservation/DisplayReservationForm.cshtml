@@ -1,0 +1,80 @@
+﻿@using VideoClubA.Web.Areas.Reservations.Models;
+@model DisplayReservationFormViewModel;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Νέα Κράτηση</h1>
+
+<form method="post" action="CreateReservation">
+  <fieldset>
+    <div class="form-group row">
+      <label for="CustomerId" name="CustomerId" class="col-sm-2 col-form-label">ID</label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="" name="CustomerId" value="@Model.CustomerId">
+    </div>
+    <div class="form-group row">
+      <label for="staticFirstName" class="col-sm-2 col-form-label">Όνομα</label>
+      <div class="col-sm-10">
+        <input type="text" readonly=""  class="form-control-plaintext" id="staticFirstName" value="@Model.FirstName">
+      </div>
+    </div>
+     <div class="form-group row">
+      <label for="staticLastName" class="col-sm-2 col-form-label">Επώνυμο</label>
+      <div class="col-sm-10">
+        <input type="text" readonly="" class="form-control-plaintext" id="staticLastName" value="@Model.LastName">
+      </div>
+    </div>
+    <div class="form-group">
+        <label for="MovieTitle"  class="form-label mt-4">Επιλέξτε Ταινία</label>
+        <select class="form-select" id="moviesSelect" name="SelectedMovie" onchange="updateMovieCopies()">
+        @foreach(var movie in Model.AllMovies)
+        {
+            <option value="@movie.Id,@movie.Title">@movie.Title</option>
+        }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="MovieTitle"  class="form-label mt-4" >Επιλέξτε Κόπια</label>
+        <select class="form-select" id="moviesCopySelect" name="MovieCopyId">
+        </select>
+    </div>
+
+
+    </div>
+    <div class="form-group">
+      <label for="Comment" name="Comment" class="form-label mt-4">Σχόλια</label>
+      <textarea class="form-control" id="commentTextarea" name="Comment" rows="3"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary m-5">Submit</button>
+  </fieldset>
+</form>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    function updateMovieCopies() {
+        var movieIdAndTitle = $('#moviesSelect').val().split(",");
+        var movieId = movieIdAndTitle[0];
+        var movieTitle = movieIdAndTitle[1];
+        $.ajax({
+            url: '@Url.Action("LoadMovieCopies")', 
+            type: 'GET',
+            data: { movieId: movieId },
+            success: function (result) {
+                var selectBox = $('#moviesCopySelect');
+                selectBox.empty();
+                $.each(result, function (index, value) {
+                selectBox.append('<option value="' + value + '">' + value + '</option>');
+            });
+            },
+            error: function () {
+                alert('An error occurred while processing your request.');
+            }
+        });
+    }
+</script>

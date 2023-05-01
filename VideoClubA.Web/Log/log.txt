@@ -1,0 +1,1 @@
+{"@t":"2023-04-24T10:55:48.4625082Z","@mt":"Logging is working","ThreadId":1,"ProcessId":25388,"EnvironmentName":"Development"}

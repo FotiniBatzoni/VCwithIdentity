@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VideoClubA.Web
+build_property.RootNamespace = VideoClubA.Web
+build_property.ProjectDir = D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Areas/ActiveReservations/Views/ActiveReservation/ActiveReservationsPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWN0aXZlUmVzZXJ2YXRpb25zXFZpZXdzXEFjdGl2ZVJlc2VydmF0aW9uXEFjdGl2ZVJlc2VydmF0aW9uc1BhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Areas/Customers/Views/Customer/CustomerPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJzXFZpZXdzXEN1c3RvbWVyXEN1c3RvbWVyUGFuZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Areas/Movies/Views/Movie/MovieGallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW92aWVzXFZpZXdzXE1vdmllXE1vdmllR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Areas/Reservations/Views/Reservation/DisplayReservationForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzZXJ2YXRpb25zXFZpZXdzXFJlc2VydmF0aW9uXERpc3BsYXlSZXNlcnZhdGlvbkZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Areas/Reservations/Views/Reservation/ReservationsPerCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVzZXJ2YXRpb25zXFZpZXdzXFJlc2VydmF0aW9uXFJlc2VydmF0aW9uc1BlckN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROGRAMMING/C\#Projects/C\#-MyProjects/VC/VCwithIdentity/VideoClubA.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wpsv5837so
