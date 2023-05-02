@@ -31,9 +31,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VideoClubA.Authentication\VideoClubA.Authentication.csproj" />
     <ProjectReference Include="..\VideoClubA.Common\VideoClubA.Common.csproj" />
     <ProjectReference Include="..\VideoClubA.Core\VideoClubA.Core.csproj" />
     <ProjectReference Include="..\VideoClubA.Infrastucture\VideoClubA.Infrastucture.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Login\Models\" />
   </ItemGroup>
 
 </Project>

@@ -20,6 +20,13 @@ namespace VideoClubA.Common.Services
                     .AsNoTracking()
                     .ToList();
         }
+
+        public Customer GetCustomer(string firstName, string lastName)
+        {
+            return _context.Customers
+                .Where(c => c.FirstName.Contains(firstName) && c.LastName.Contains(lastName))
+                .FirstOrDefault();
+        }
     }
    
 }

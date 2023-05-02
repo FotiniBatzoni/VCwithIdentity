@@ -10,5 +10,7 @@ namespace VideoClubA.Core.Interfaces
     public interface ICustomerSevice
     {
         public List<Customer> GetAllCustomers();
+
+        public Customer GetCustomer(string firstName, string lastName);
     }
 }

@@ -1,0 +1,14 @@
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\bin\Debug\net6.0\VideoClubA.Authentication.deps.json
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\bin\Debug\net6.0\VideoClubA.Authentication.runtimeconfig.json
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\bin\Debug\net6.0\VideoClubA.Authentication.dll
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\bin\Debug\net6.0\VideoClubA.Authentication.pdb
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.csproj.AssemblyReference.cache
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.AssemblyInfoInputs.cache
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.AssemblyInfo.cs
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.csproj.CoreCompileInputs.cache
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.dll
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\refint\VideoClubA.Authentication.dll
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.pdb
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\VideoClubA.Authentication.genruntimeconfig.cache
+D:\PROGRAMMING\C#Projects\C#-MyProjects\VC\VCwithIdentity\VideoClubA.Authentication\obj\Debug\net6.0\ref\VideoClubA.Authentication.dll

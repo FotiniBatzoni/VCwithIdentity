@@ -1,7 +1,11 @@
 using Autofac.Core;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Serilog.Formatting.Compact;
+using System.Configuration;
+using VideoClubA.Authentication.Data;
+using VideoClubA.Authentication.Data.Account;
 using VideoClubA.Common.Services;
 using VideoClubA.Core.Interfaces;
 using VideoClubA.Infrastucture.Data;
@@ -44,6 +48,35 @@ builder.Services.AddScoped<IMovieRentService,  MovieRentService>();
 
 builder.Services.AddSingleton<Dictionary<string, int>>(new Dictionary<string, int>());
 
+//Identity
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+});
+
+builder.Services.AddIdentity<User, IdentityRole>(options =>
+{
+    options.Password.RequiredLength = 8;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireUppercase = true;
+
+    options.Lockout.MaxFailedAccessAttempts = 5;
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+
+    options.User.RequireUniqueEmail = true;
+    options.SignIn.RequireConfirmedEmail = true;
+})
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
+
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -59,13 +92,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseAuthentication();
 
 app.UseAuthorization();
+
 
 app.UseEndpoints(endpoints =>
 {
-
     endpoints.MapControllerRoute(
     name: "areaRoute",
     pattern: "{area:exists}/{controller}/{action}"
