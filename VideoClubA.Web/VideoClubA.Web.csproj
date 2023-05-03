@@ -37,8 +37,4 @@
     <ProjectReference Include="..\VideoClubA.Infrastucture\VideoClubA.Infrastucture.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Login\Models\" />
-  </ItemGroup>
-
 </Project>

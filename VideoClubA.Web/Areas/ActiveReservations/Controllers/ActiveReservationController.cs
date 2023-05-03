@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using VideoClubA.Core.Entities;
 using VideoClubA.Core.Interfaces;
@@ -26,6 +27,7 @@ namespace VideoClubA.Web.Areas.ActiveReservations.Controllers
 
         [HttpGet]
         [Area("ActiveReservations")]
+        [Authorize]
         public IActionResult ActiveReservationsPanel(int page = 1, int pageSize = 5)
         {
 

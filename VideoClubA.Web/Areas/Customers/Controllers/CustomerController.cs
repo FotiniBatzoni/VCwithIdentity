@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using VideoClubA.Core.Interfaces;
 using VideoClubA.Web.Areas.Customers.Models;
 using VideoClubA.Web.Areas.Movies.Controllers;
@@ -23,6 +24,7 @@ namespace VideoClubA.Web.Areas.Customers.Controllers
 
         [HttpGet]
         [Area("Customers")]
+        [Authorize]
         public ActionResult CustomerPanel(int page = 1, int pageSize = 5)
         {
             return View(PaginateCustomer(page, pageSize));
