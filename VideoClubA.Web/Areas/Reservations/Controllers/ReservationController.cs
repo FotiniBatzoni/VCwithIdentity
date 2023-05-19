@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 using VideoClubA.Core.Entities;
 using VideoClubA.Core.Interfaces;
 using VideoClubA.Web.Areas.Reservations.Models;
@@ -109,14 +110,18 @@ namespace VideoClubA.Web.Areas.Reservations.Controllers
 
             var movieCopy = _movieCopiesDb.GetMovieCopy(reservation.MovieCopyId);
 
-            if (movieCopy != null )
+
+            if (movieCopy == null)
             {
-                if (movieCopy.IsAvailable)
-                {
-                    Console.WriteLine("The movie copy is not available");
-                    return ;
-                }
-                
+                Console.WriteLine("The movie copy does not exist");
+                return;
+            }
+       
+
+            if (movieCopy.IsAvailable)
+            {
+                Console.WriteLine("The movie copy is not available");
+                return;
             }
             movieCopy.IsAvailable = false;
 
